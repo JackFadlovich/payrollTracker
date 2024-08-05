@@ -7,23 +7,23 @@ const employeeData = new Array();
 // Collect employee data
   // TODO: Get user input to create and return an array of employee objects
 const collectEmployees = function() {
-const addAnother = true
+let addAnother = true;
 
 while (addAnother) {
   const firstName = prompt("enter the employee's first name");
   const lastName = prompt("enter the employee's last name");
-  const salary = prompt("enter the employee's salry");
-}
-const employeeData = {
+  const salary = Number(prompt("enter the employee's salary"));
+
+  if (firstName && lastName && !isNaN(salary)) {
+employeeData.push = {
   firstName:firstName,
   lastName:lastName,
   salary:salary
+} }else {
+  console.error("Invalid input");
 }
-employeeData.push(employeeData);
-addAnother = confirm("add another employee")
- return(employeeData)
-};
-
+addAnother = confirm("add another employee")}
+return(employeeData)}
 
 
 
