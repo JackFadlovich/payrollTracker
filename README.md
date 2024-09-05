@@ -7,5 +7,3 @@ the user is prompted to enter the employee's first and last name as well as thei
 the employee's name and salary are added to chart. Then the chart is then updated to be sorted alphabetically by last name.
 
 ![alt text](image-1.png)
-
-Link to deployed application
