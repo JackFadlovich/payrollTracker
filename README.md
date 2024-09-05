@@ -1,15 +1,7 @@
-# Employee Payroll Tracker Starter Code
+# Employee payroll tracker
 
-AS A payroll manager
-I WANT AN employee payroll tracker
-SO THAT I can see my employees' payroll data and properly budget for the company
+This is an application that allows the user to track employee salaries. When the "Add employee" button is pressed
+the user is prompted to enter the employee's first and last name as well as their salary. Once the user adds an employee,
+the employee's name and salary are added to chart. Then the chart is then updated to be sorted alphabetically by last name.
 
-GIVEN an employee payroll tracker
-WHEN I click the "Add employee" button
-THEN I am presented with a series of prompts asking for first name, last name, and salary
-WHEN I finish adding an employee
-THEN I am prompted to continue or cancel
-WHEN I choose to continue
-THEN I am prompted to add a new employee
-WHEN I choose to cancel
-THEN my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data
+![alt text](image-1.png)
